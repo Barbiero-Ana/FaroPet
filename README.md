@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="./src/assets/img/FaroLogo.png" alt="Logo Faro Pet" width="180" />
+  <img src="./img/FaroLogo.png" alt="Logo Faro Pet" width="180" />
 
   <br />
 
