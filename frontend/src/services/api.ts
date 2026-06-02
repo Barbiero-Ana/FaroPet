@@ -1,5 +1,4 @@
-const BASE_URL = "http://localhost:3000/api/v1";
-
+const BASE_URL = "https://faropet-production.up.railway.app/api/v1";
 // ── Token management ─────────────────────────────────────────────────────────
 
 export function getToken(): string | null {
