@@ -272,7 +272,7 @@ export function PetDetail() {
       {/* ── Delete confirmation modal ────────────────────────────────────── */}
       {confirmDelete && (
         <div className="fixed inset-0 bg-black/50 z-50 flex items-end md:items-center md:justify-center">
-          <div className="bg-white dark:bg-[#2A2018] w-full md:max-w-sm rounded-t-3xl md:rounded-3xl p-6 flex flex-col gap-4">
+          <div className="bg-white dark:bg-[#2A2018] w-full md:max-w-sm rounded-t-3xl md:rounded-3xl p-6 pb-24 flex flex-col gap-4">
             <h3 className="font-bold text-lg text-gray-800 dark:text-gray-100">Remover {pet.name}?</h3>
             <p className="text-gray-500 dark:text-gray-400 text-sm">Esta ação não pode ser desfeita. Todos os dados do pet serão removidos.</p>
             <div className="flex gap-3">
