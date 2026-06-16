@@ -306,10 +306,10 @@ export function HomeScreen() {
               <SectionHeader title="Ações rápidas" />
               <div className="grid grid-cols-2 gap-2">
                 {[
-                  { label: "Novo pet", icon: PawPrint, page: "pet-form" as const, color: "bg-amber-50 text-amber-700" },
-                  { label: "Vacina", icon: Syringe, page: "vaccine-form" as const, color: "bg-blue-50 text-blue-700" },
-                  { label: "Consulta", icon: Calendar, page: "appointment-form" as const, color: "bg-purple-50 text-purple-700" },
-                  { label: "Medicação", icon: Pill, page: "medication-form" as const, color: "bg-green-50 text-green-700" },
+                 { label: "Novo pet", icon: PawPrint, page: "pet-form" as const, color: "bg-orange-50 text-orange-600" },
+                  { label: "Vacina", icon: Syringe, page: "vaccine-form" as const, color: "bg-orange-50 text-orange-600" },
+                  { label: "Consulta", icon: Calendar, page: "appointment-form" as const, color: "bg-orange-50 text-orange-600" },
+                  { label: "Medicação", icon: Pill, page: "medication-form" as const, color: "bg-orange-50 text-orange-600" },
                 ].map(({ label, icon: Icon, page, color }) => (
                   <button
                     key={label}
